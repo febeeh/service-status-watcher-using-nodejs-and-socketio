@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Redis",
+    "service": "redis"
+  },
+  {
+    "name": "Apache Server",
+    "service": "apache2"
+  }
+]

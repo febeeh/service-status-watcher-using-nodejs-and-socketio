@@ -1,0 +1,15 @@
+{
+  "name": "service-status-watcher",
+  "version": "1.0.0",
+  "main": "servicewatcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.8.1"
+  },
+  "description": ""
+}
