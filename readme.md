@@ -14,22 +14,18 @@ A real-time service monitoring tool built with **Node.js** and **Socket.IO**. Th
    ```sh
    npm install
    ```
-
-````
 2. **Start the Socket.IO server:**
    ```sh
-node servicewatcher.js
-````
-
+   node servicewatcher.js
+   ```
 3. **Run the test client:**
    ```sh
    node test.js
    ```
 
-````
-
 ## Adding More Services
-To monitor additional services, update the ```services.json``` file in the following format:
+
+To monitor additional services, update the `services.json` file in the following format:
 
 ```json
 [
@@ -42,13 +38,13 @@ To monitor additional services, update the ```services.json``` file in the follo
     "service": "apache2"
   }
 ]
+```
 
-````
-* `name:` A human-readable name for the service.
-* `service:` The actual service name used in the `systemctl` command.
+- `name:` A human-readable name for the service.
+- `service:` The actual service name used in the `systemctl` command.
 
 Save the file and restart the script.
 
-____________________________________________________________
+---
 
 ## Done
