@@ -1,6 +1,6 @@
 # Service Status Watcher Using Nodejs & SocketIO
 
-A real-time service monitoring tool built with **Node.js** and **Socket.IO**. This application enables users to check the status of system services remotely via WebSockets.
+A real-time service monitoring tool for linux built with **Node.js** and **Socket.IO**. This application enables users to check the status of system services remotely via WebSockets.
 
 ## 🚀 Features
 
